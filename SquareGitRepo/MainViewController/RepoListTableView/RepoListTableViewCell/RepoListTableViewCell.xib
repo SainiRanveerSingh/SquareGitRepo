@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="KGk-i7-Jjw" customClass="RepoListTableViewCell" customModule="SquareGitRepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBp-TW-IqA">
+                        <rect key="frame" x="8" y="8" width="304" height="116"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doc.richtext.ko" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iLU-on-LZr">
+                                <rect key="frame" x="15" y="22.333333333333329" width="20" height="19.666666666666671"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" name="AdaptableBlackColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="PFz-WA-YpX"/>
+                                    <constraint firstAttribute="height" constant="20" id="iI5-7P-DQb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repo Name" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-0c-Jvu">
+                                <rect key="frame" x="45" y="10" width="249" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aza-be-US6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" name="AdaptableBlackColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDf-Sb-Inc">
+                                <rect key="frame" x="45" y="64" width="249" height="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" name="AdaptableBlackColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sAM-uK-seG">
+                                <rect key="frame" x="15" y="64.666666666666671" width="20" height="18.666666666666671"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" name="AdaptableBlackColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Cru-L4-qDP"/>
+                                    <constraint firstAttribute="width" constant="20" id="aEW-IK-D4S"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="AdabltableWhiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1fW-0c-Jvu" firstAttribute="leading" secondItem="iLU-on-LZr" secondAttribute="trailing" constant="10" id="Ejc-ll-e1K"/>
+                            <constraint firstItem="1fW-0c-Jvu" firstAttribute="top" secondItem="MBp-TW-IqA" secondAttribute="top" constant="10" id="G7B-pJ-qTl"/>
+                            <constraint firstItem="sAM-uK-seG" firstAttribute="top" secondItem="KDf-Sb-Inc" secondAttribute="top" id="J5e-oO-QTd"/>
+                            <constraint firstItem="KDf-Sb-Inc" firstAttribute="top" secondItem="1fW-0c-Jvu" secondAttribute="bottom" constant="10" id="OVg-AC-dpb"/>
+                            <constraint firstItem="sAM-uK-seG" firstAttribute="leading" secondItem="MBp-TW-IqA" secondAttribute="leading" constant="15" id="Qlw-6A-qNM"/>
+                            <constraint firstItem="KDf-Sb-Inc" firstAttribute="leading" secondItem="sAM-uK-seG" secondAttribute="trailing" constant="10" id="Vz1-bf-TVX"/>
+                            <constraint firstAttribute="trailing" secondItem="KDf-Sb-Inc" secondAttribute="trailing" constant="10" id="aS9-jK-94v"/>
+                            <constraint firstAttribute="bottom" secondItem="KDf-Sb-Inc" secondAttribute="bottom" constant="15" id="lmR-pq-4Vo"/>
+                            <constraint firstAttribute="trailing" secondItem="1fW-0c-Jvu" secondAttribute="trailing" constant="10" id="o8z-AZ-rZR"/>
+                            <constraint firstItem="iLU-on-LZr" firstAttribute="leading" secondItem="MBp-TW-IqA" secondAttribute="leading" constant="15" id="qVX-5t-yhB"/>
+                            <constraint firstItem="iLU-on-LZr" firstAttribute="centerY" secondItem="1fW-0c-Jvu" secondAttribute="centerY" id="sFx-nm-h6h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MBp-TW-IqA" secondAttribute="bottom" constant="8" id="9eh-mn-X4g"/>
+                    <constraint firstAttribute="trailing" secondItem="MBp-TW-IqA" secondAttribute="trailing" constant="8" id="eg0-PE-KDx"/>
+                    <constraint firstItem="MBp-TW-IqA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="j8M-sU-L1D"/>
+                    <constraint firstItem="MBp-TW-IqA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="w5M-fL-Oll"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imageViewInfoIcon" destination="sAM-uK-seG" id="Qdw-yf-xMw"/>
+                <outlet property="imageViewRepoIcon" destination="iLU-on-LZr" id="5za-CF-o28"/>
+                <outlet property="labelDescription" destination="KDf-Sb-Inc" id="Ibu-MG-CAn"/>
+                <outlet property="labelTitle" destination="1fW-0c-Jvu" id="0Xf-Yn-mMd"/>
+                <outlet property="viewBackgroundMain" destination="MBp-TW-IqA" id="GFF-Ja-tNR"/>
+            </connections>
+            <point key="canvasLocation" x="126.71755725190839" y="110.56338028169014"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="doc.richtext.ko" catalog="system" width="115" height="128"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="AdabltableWhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AdaptableBlackColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

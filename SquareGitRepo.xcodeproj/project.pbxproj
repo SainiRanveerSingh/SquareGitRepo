@@ -37,6 +37,40 @@
 			);
 			target = 04FE5BB72F9CA7420092331D /* SquareGitRepo */;
 		};
+		04FE5C0B2F9CAAA50092331D /* Exceptions for "SquareGitRepo" folder in "SquareGitRepoTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MainViewController/RepoListTableView/RepoListTableView.swift,
+				MainViewController/RepoListTableView/RepoListTableViewCell/RepoListTableViewCell.swift,
+				MainViewController/RepoListTableView/RepoListTableViewCell/RepoListTableViewCell.xib,
+				MainViewController/ViewControllerViewModel.swift,
+				SquareGitRepoResponseModel/SquareGitRepoResponse.swift,
+				UtilityClasses/APIManager.swift,
+				UtilityClasses/AppURLConstants.swift,
+				UtilityClasses/ErrorMessages.swift,
+				UtilityClasses/LoadingView/LoadingView.swift,
+				UtilityClasses/LoadingView/LoadingView.xib,
+				UtilityClasses/NetworkCheck.swift,
+			);
+			target = 04FE5BCD2F9CA7490092331D /* SquareGitRepoTests */;
+		};
+		04FE5C0C2F9CAAA50092331D /* Exceptions for "SquareGitRepo" folder in "SquareGitRepoUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MainViewController/RepoListTableView/RepoListTableView.swift,
+				MainViewController/RepoListTableView/RepoListTableViewCell/RepoListTableViewCell.swift,
+				MainViewController/RepoListTableView/RepoListTableViewCell/RepoListTableViewCell.xib,
+				MainViewController/ViewControllerViewModel.swift,
+				SquareGitRepoResponseModel/SquareGitRepoResponse.swift,
+				UtilityClasses/APIManager.swift,
+				UtilityClasses/AppURLConstants.swift,
+				UtilityClasses/ErrorMessages.swift,
+				UtilityClasses/LoadingView/LoadingView.swift,
+				UtilityClasses/LoadingView/LoadingView.xib,
+				UtilityClasses/NetworkCheck.swift,
+			);
+			target = 04FE5BD72F9CA7490092331D /* SquareGitRepoUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +78,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				04FE5BE02F9CA7490092331D /* Exceptions for "SquareGitRepo" folder in "SquareGitRepo" target */,
+				04FE5C0B2F9CAAA50092331D /* Exceptions for "SquareGitRepo" folder in "SquareGitRepoTests" target */,
+				04FE5C0C2F9CAAA50092331D /* Exceptions for "SquareGitRepo" folder in "SquareGitRepoUITests" target */,
 			);
 			path = SquareGitRepo;
 			sourceTree = "<group>";
@@ -296,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
