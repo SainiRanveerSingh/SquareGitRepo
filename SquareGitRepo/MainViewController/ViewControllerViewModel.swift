@@ -7,7 +7,14 @@
 
 import Foundation
 import UIKit
-final class ViewControllerViewModel {
+
+protocol ViewControllerViewModelProtocol {
+    var arrayRepoList: SquareGitRepoResponse { get set }
+    
+    func getSquareGitRepo(completion: @escaping (Bool, String) -> Void)
+}
+
+final class ViewControllerViewModel: ViewControllerViewModelProtocol {
     
     private let apiManager: APIManaging
     
