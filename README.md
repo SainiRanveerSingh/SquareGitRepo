@@ -1,5 +1,8 @@
 # Square Git Repositories – iOS App
 
+# Git repo link
+https://github.com/SainiRanveerSingh/SquareGitRepo.git
+
 # Requirements
 Display a scrollable list of repositories of “square” organisation in GitHub.
 Each repository should present at least the name and description of the repo.
